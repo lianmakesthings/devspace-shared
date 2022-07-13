@@ -3,4 +3,6 @@ name: devspace-shared
 
 functions:
   test_setup: |-
-    echo "------------------ Setting up tests... ------------------"
+    echo "------------------ Setting up shared tests... ------------------"
+  test_teardown: |-
+    echo "------------------ Tearing down shared tests... ------------------"
